@@ -1,0 +1,2 @@
+# Magicm
+just a blog
