@@ -1,0 +1,19 @@
+<div class="form-group">
+  <label for="title">Title</label>
+  <input required value="<%= series.title %>" type="text" name="title" id="title" class="form-control">
+</div>
+<div class="form-group">
+  <label for="description">Description</label>
+  <textarea name="description" id="description" class="form-control"><%= series.description %></textarea>
+</div>
+<div class="form-group">
+  <label for="googledrive">Google drive link</label>
+  <input value="<%= series.googledrive %>" type="text" name="googledrive" id="googledrive" class="form-control">
+</div>
+<div class="form-group">
+  <label for="mega">Mega link</label>
+  <input value="<%= series.mega %>" type="text" name="mega" id="mega" class="form-control">
+</div>
+
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
