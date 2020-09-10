@@ -17,6 +17,7 @@ mongoose
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({ extended: false }))
 app.use(methodOverride('_method'))
+app.use('/static',express.static(__dirname + '/public'));
 
 app.get('/', async (req, res) => {
   const serieses = await series.find().sort({ createdAt: 'desc' })

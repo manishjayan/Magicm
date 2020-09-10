@@ -1,2 +1,2 @@
 # Magicm
-just a blog
+just a site
